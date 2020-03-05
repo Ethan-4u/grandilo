@@ -1,0 +1,36 @@
+/* body{
+  margin-top: 105px;
+} */
+
+.navbar {
+  box-shadow: 2px 2px 5px white;
+  opacity: 0.9;
+  background: white;
+  border-bottom: #93cb52 0.2px solid;
+}
+
+#marketing .marketing-text-left{
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+#marketing .marketing-pics-right{
+  display: block;
+  margin: auto;
+  width: 50;
+}
+
+.card {
+  transition: box-shadow .3s;
+  width: 300px;
+  height: 170px;
+  
+  border-radius:10px;
+  border: 1px solid #fff;
+  background: #fff;
+  
+  
+}
+.card:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
